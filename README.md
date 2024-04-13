@@ -1,6 +1,6 @@
 # Record timelapse
 
-This is company application to record timelapse videos. Recording done with `ffmpeg` and UI add controls to select desired window (hence, select screen region) and record it. Note, that recording does not support recording window exculsively, so other windows on top of it would be visible on recording. Also script doesn't track window movement, so if you need to move starting recording region, you need to Stop recording, reselect window and start recording again.
+This is accompany application to record timelapse videos. Recording done with `ffmpeg` and UI add controls to select desired window (hence, select screen region) and record it. Note, that recording does not support recording window exculsively, so other windows on top of it would be visible on recording. Also script doesn't track window movement, so if you need to move starting recording region, you need to Stop recording, reselect window and start recording again.
 
 Code for app is heavily relying on Windows features, so it's not supported in Linux and Mac. While it is possible to support them, a lot would need to be changed.
 

@@ -1,0 +1,57 @@
+Select {
+}
+
+#win_box {
+	height: 3;
+}
+
+#win_box Label {
+	padding: 1;
+}
+
+#record_fps {
+	width: 30;
+}
+
+#target_fps {
+	width: 30;
+	offset: 32 -3;
+}
+
+#bitrate {
+	width: 40;
+	offset: 64 -6;
+}
+
+TimeDisplayWidget {
+	content-align-horizontal: center;
+}
+
+Button {
+	width: 49%;
+	dock: bottom;
+	offset-y: -1;
+	margin: 1 2;
+}
+
+.started #start {
+	display: none;
+}
+
+#stop {
+	display: none;
+	align-horizontal: left;
+}
+
+.started #stop {
+	display: block;
+}
+
+#cancel {
+	display: none;
+	align-horizontal: right;
+}
+
+.started #cancel {
+	display: block;
+}
